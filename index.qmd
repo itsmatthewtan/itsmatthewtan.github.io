@@ -1,11 +1,29 @@
 ---
-title: "temp_website"
+title: "Matthew Tan"
 ---
 
-This is a Quarto website.
+::: {style="float:left; position: relative; top: 0px"}
+![](matt.jpg){height="150px" style="margin-right: 20px; border-radius: 10px;"}
+:::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## About Me
 
-```{r}
-1 + 1
-```
+I'm a Year 2 **Applied Computing (FinTech)** student at Singapore Institute of Technology with a passion for leveraging technology to create meaningful impact in financial services and technology sectors.
+
+With hands-on experience in **full-stack development**, **database architecture**, and **AI integration**, I've worked across various domains including cloud computing, AI voice automation, and FinTech solutions. My technical toolkit includes Java, Python, JavaScript, SQL, and modern web technologies, complemented by a strong foundation in business finance and data analytics.
+
+### What I Do
+
+- **Full-Stack Development**: Building robust web applications with modern frameworks
+- **AI Integration**: Developing intelligent systems with LLM and machine learning
+- **Cloud Computing**: Architecting scalable solutions on AWS
+- **FinTech Solutions**: Creating innovative financial technology applications
+- **Teaching**: Currently serving as a Teaching Assistant for INF1002 Programming Fundamentals
+
+### Current Focus
+
+I'm currently aiming to pass my interview at Prudential on friday :)
+
+---
+
+**Contact**: mailformatthewtan@gmail.com | [LinkedIn](https://www.linkedin.com/in/matthew-tan-104773225)

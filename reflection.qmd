@@ -1,0 +1,141 @@
+---
+title: "Reflection on the Use of GenAI"
+---
+
+## My Experience with Claude (Anthropic)
+
+### Why I Chose Claude
+
+For this assessment, I primarily used **Claude by Anthropic** as my GenAI tool. I chose Claude for several reasons:
+
+1. **Technical Depth**: Claude excels at understanding complex technical requirements and providing detailed, accurate code
+2. **Context Retention**: Its ability to maintain context throughout long conversations helped streamline the development process
+3. **Code Quality**: Claude generates clean, well-documented code that follows best practices
+4. **Explanation Quality**: Beyond just providing solutions, Claude explains the "why" behind technical decisions
+
+### How Claude Helped Me Complete This Assessment
+
+#### 1. GitHub Setup and Configuration
+
+**Challenge**: I encountered issues with GitHub authentication and repository setup.
+
+**How Claude Helped**:
+- Provided step-by-step commands for Git configuration
+- Helped troubleshoot 2FA authentication issues
+- Guided me through the process of making my repository public and configuring GitHub Pages
+
+**Example**: When I couldn't access my school GitHub due to 2FA issues, Claude helped me switch to my personal account and configure Git with the correct credentials:
+```bash
+git config --global user.name "itsmatthewtan"
+git config --global user.email "mailformatthewtan@gmail.com"
+```
+
+#### 2. Quarto Website Development
+
+**Challenge**: Setting up and configuring Quarto for GitHub Pages deployment.
+
+**How Claude Helped**:
+- Explained the importance of the `output-dir: docs` configuration
+- Guided me through the rendering process in RStudio
+- Helped troubleshoot when files weren't appearing in the correct directory
+
+**Key Learning**: Understanding that I needed to render from the correct project directory, not the temporary website folder.
+
+#### 3. Content Creation and Formatting
+
+**Challenge**: Structuring content effectively using Markdown and creating professional-looking pages.
+
+**How Claude Helped**:
+- Generated well-formatted Markdown templates for all pages
+- Helped organize my existing content (resume, project descriptions) into web-friendly formats
+- Provided examples of effective Markdown syntax for images, links, and code blocks
+
+**Example**: Claude transformed my resume bullet points into engaging narrative content for the FYP project page, making it more suitable for a personal website.
+
+#### 4. Problem-Solving and Debugging
+
+**Challenge**: Various technical issues throughout the development process.
+
+**How Claude Helped**:
+- Diagnosed why files weren't being pushed to GitHub
+- Explained the Git staging process when I was confused about unstaged files
+- Provided clear explanations for each error message I encountered
+
+### Benefits of Using GenAI
+
+#### 1. Time Efficiency
+- Reduced research time significantly
+- Got instant answers to technical questions
+- Avoided trial-and-error debugging
+
+#### 2. Learning Enhancement
+- Received explanations alongside solutions
+- Learned best practices in real-time
+- Understood the "why" behind technical decisions
+
+#### 3. Error Prevention
+- Caught potential mistakes before they became problems
+- Received warnings about common pitfalls
+- Got guidance on proper workflows
+
+#### 4. Professional Quality
+- Generated clean, well-structured code
+- Produced professional-looking documentation
+- Created consistent formatting across all pages
+
+### Challenges with GenAI
+
+#### 1. Context Limitations
+- Sometimes needed to repeat information when conversations got long
+- Had to be specific about which project or folder I was working in
+- Required clear communication to avoid misunderstandings
+
+#### 2. File System Navigation
+- Claude couldn't directly see my file structure
+- Needed to provide screenshots to show current state
+- Had to manually verify that suggested commands worked
+
+#### 3. Assumptions and Verification
+- Occasionally made assumptions about my setup
+- Needed to verify that paths and configurations were correct for my system
+- Had to adapt some suggestions to my specific environment
+
+#### 4. Over-Reliance Risk
+- Easy to ask for solutions without fully understanding them
+- Important to review and understand all generated code
+- Need to maintain critical thinking about suggestions
+
+### How GenAI Will Assist My Future Study and Work
+
+#### Academic Context
+
+1. **Programming Assignments**: Quick debugging and code review partner
+2. **Research Projects**: Help with data analysis and visualization code
+3. **Documentation**: Generate clear, professional documentation
+4. **Learning New Technologies**: Accelerate learning curve for new frameworks
+
+#### Professional Context
+
+1. **Code Reviews**: Get instant feedback on code quality
+2. **Problem Solving**: Brainstorm solutions to complex technical challenges
+3. **Documentation**: Create comprehensive technical documentation
+4. **Rapid Prototyping**: Quickly build proof-of-concepts
+
+#### Best Practices I've Developed
+
+1. **Always Verify**: Never blindly copy-paste without understanding
+2. **Ask for Explanations**: Request the reasoning behind solutions
+3. **Iterate and Refine**: Use GenAI as a collaborative tool, not a replacement for thinking
+4. **Learn Actively**: Use GenAI responses as learning opportunities
+
+### Final Thoughts
+
+Using Claude for this assessment has been invaluable. It's not just about getting quick answers—it's about having an intelligent assistant that can explain concepts, catch mistakes, and help me work more efficiently. The key is to use it as a learning tool rather than a crutch.
+
+**The most important lesson**: GenAI is most effective when you engage with it critically, ask good questions, and take time to understand the solutions it provides rather than just implementing them blindly.
+
+Moving forward, I plan to continue using GenAI tools like Claude as a "senior developer" I can consult, while always maintaining my own understanding and critical thinking about the code and solutions I implement.
+
+---
+
+*This reflection represents my genuine experience using Claude (Anthropic) to complete this Quarto website assessment, including both the benefits and challenges I encountered.*

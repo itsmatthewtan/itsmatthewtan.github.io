@@ -1,0 +1,134 @@
+---
+title: "Hackathon Experiences"
+---
+
+Throughout my academic journey, I've participated in several hackathons that have shaped my problem-solving abilities and technical skills. Here are my key hackathon experiences:
+
+## VISA Fin-Connect Hackathon 2024 - Runner-Up 🥈
+
+### Project: Aura - AI-Powered Travel Rewards Platform
+
+**Achievement**: Secured Runner-Up position in a competitive national hackathon
+
+**The Problem**: Traditional credit card rewards programs fail to personalize benefits and help users maximize their spending potential.
+
+**Our Solution**: We developed **Aura**, an innovative platform featuring:
+
+#### 1. Spend Futures - AI Spending Predictor
+- Machine learning model that analyzes historical spending patterns
+- Predicts future expenses across different categories
+- Provides personalized recommendations for optimal card usage
+
+#### 2. Gamified Challenges
+- Interactive challenges to encourage smart spending habits
+- Reward multipliers for achieving spending goals
+- Competitive leaderboards among friends
+
+#### 3. Personalized Rewards Engine
+- Real-time analysis of available credit card benefits
+- Smart suggestions based on upcoming purchases
+- Integration with VISA's rewards ecosystem
+
+**Technologies Used**: Python, React, Node.js, TensorFlow, VISA APIs
+
+**Key Takeaways**:
+- Learned to develop under tight time constraints (24-48 hours)
+- Gained experience in FinTech API integration
+- Improved presentation and pitching skills
+- Understanding of the credit card rewards ecosystem
+
+---
+
+## HackRift 2025 - Finalist 🏆
+
+### Project: Hasslefree - AI Multilingual Voice-Powered Documentation App
+
+**Achievement**: Selected as one of the finalists among 100+ teams
+
+**The Problem**: Healthcare documentation is time-consuming and often creates barriers for non-English speaking patients and doctors.
+
+**Our Solution**: **Hasslefree** - A full-stack application that revolutionizes medical documentation:
+
+#### Core Features
+
+**1. Voice-to-Text Documentation**
+- Real-time speech recognition using MediaRecorder API
+- Instant conversion of doctor-patient conversations to structured notes
+- Hands-free operation for busy healthcare professionals
+
+**2. AI-Powered Intelligence**
+- Integrated Grok API for intelligent summarization
+- Automatic extraction of key medical information
+- Context-aware suggestions and terminology correction
+
+**3. Multilingual Support**
+- Real-time translation capabilities
+- Support for multiple languages and dialects
+- Breaking language barriers in healthcare
+
+**4. Edge Computing**
+- Deployed on Edge Functions for ultra-low latency
+- Privacy-first architecture with local processing
+- HIPAA-compliant data handling
+
+#### Technical Stack
+
+- **Frontend**: Next.js, React
+- **Backend**: Edge Functions (Vercel/Cloudflare)
+- **AI Integration**: Grok API
+- **Audio Processing**: MediaRecorder API, Web Speech API
+- **Deployment**: Edge network for global accessibility
+
+**Key Features**:
+- Real-time voice transcription with <1s latency
+- Multi-speaker detection and attribution
+- Automatic medical terminology correction
+- Export to standard medical documentation formats
+
+**Impact**:
+- Reduces documentation time by up to 70%
+- Improves accuracy in patient records
+- Enables better doctor-patient communication across language barriers
+- Scalable solution for healthcare facilities of all sizes
+
+**What I Learned**:
+- Edge computing architecture and deployment
+- Real-time audio processing and streaming
+- LLM API integration and prompt engineering
+- Healthcare technology compliance considerations
+- Building accessible and inclusive applications
+
+---
+
+## Smart Nation 2.0 Hackathon - People's Choice Award 🌟
+
+### Project: Smart Preschool AI
+
+**Achievement**: Won the People's Choice Award
+
+**The Problem**: Preschools struggle with administrative tasks, parent communication, and tracking child development effectively.
+
+**Our Solution**: An AI-powered platform that streamlines preschool operations:
+
+- Automated attendance tracking
+- AI-driven developmental milestone monitoring
+- Parent-teacher communication portal
+- Administrative task automation
+
+**Technologies Used**: Python, React, Computer Vision, Mobile Development
+
+**Impact**: Our solution resonated with both judges and the public, earning the People's Choice Award for its practical approach to solving real educational challenges.
+
+---
+
+## Lessons from Hackathons
+
+Participating in these hackathons has taught me:
+
+1. **Rapid Prototyping**: Building functional MVPs in 24-48 hours
+2. **Team Collaboration**: Working effectively under pressure with diverse teams
+3. **User-Centered Design**: Always keeping the end-user in mind
+4. **Technical Versatility**: Quickly learning and integrating new technologies
+5. **Presentation Skills**: Effectively communicating technical solutions to non-technical audiences
+
+These experiences have not only enhanced my technical skills but also developed my ability to think creatively, work under pressure, and deliver solutions that address real-world problems.

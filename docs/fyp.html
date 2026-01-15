@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Matthew Tan</title>
+<title>FYP Project: Meta-Data Management &amp; Intelligent Search Platform – Matthew Tan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,11 +90,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./fyp.html"> 
+    <a class="nav-link active" href="./fyp.html" aria-current="page"> 
 <span class="menu-text">FYP Project</span></a>
   </li>  
   <li class="nav-item">
@@ -125,10 +125,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">Project Overview</a>
   <ul class="collapse">
-  <li><a href="#what-i-do" id="toc-what-i-do" class="nav-link" data-scroll-target="#what-i-do">What I Do</a></li>
-  <li><a href="#current-focus" id="toc-current-focus" class="nav-link" data-scroll-target="#current-focus">Current Focus</a></li>
+  <li><a href="#the-challenge" id="toc-the-challenge" class="nav-link" data-scroll-target="#the-challenge">The Challenge</a></li>
+  <li><a href="#technical-implementation" id="toc-technical-implementation" class="nav-link" data-scroll-target="#technical-implementation">Technical Implementation</a></li>
+  <li><a href="#key-features" id="toc-key-features" class="nav-link" data-scroll-target="#key-features">Key Features</a></li>
+  <li><a href="#technologies-used" id="toc-technologies-used" class="nav-link" data-scroll-target="#technologies-used">Technologies Used</a></li>
+  <li><a href="#impact-outcomes" id="toc-impact-outcomes" class="nav-link" data-scroll-target="#impact-outcomes">Impact &amp; Outcomes</a></li>
+  <li><a href="#what-i-learned" id="toc-what-i-learned" class="nav-link" data-scroll-target="#what-i-learned">What I Learned</a></li>
+  <li><a href="#future-enhancements" id="toc-future-enhancements" class="nav-link" data-scroll-target="#future-enhancements">Future Enhancements</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -138,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Matthew Tan</h1>
+<h1 class="title">FYP Project: Meta-Data Management &amp; Intelligent Search Platform</h1>
 </div>
 
 
@@ -155,28 +160,79 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="float:left; position: relative; top: 0px">
-<p><img src="matt.jpg" style="margin-right: 20px; border-radius: 10px;" height="150"></p>
-</div>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>I’m a Year 2 <strong>Applied Computing (FinTech)</strong> student at Singapore Institute of Technology with a passion for leveraging technology to create meaningful impact in financial services and technology sectors.</p>
-<p>With hands-on experience in <strong>full-stack development</strong>, <strong>database architecture</strong>, and <strong>AI integration</strong>, I’ve worked across various domains including cloud computing, AI voice automation, and FinTech solutions. My technical toolkit includes Java, Python, JavaScript, SQL, and modern web technologies, complemented by a strong foundation in business finance and data analytics.</p>
-<section id="what-i-do" class="level3">
-<h3 class="anchored" data-anchor-id="what-i-do">What I Do</h3>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>During my internship at <strong>First Com Solutions Pte Ltd</strong> (Aug 2021 - Mar 2022), I led the development of an intelligent metadata management and search platform as part of the company’s digital transformation initiative.</p>
+<section id="the-challenge" class="level3">
+<h3 class="anchored" data-anchor-id="the-challenge">The Challenge</h3>
+<p>Organizations today struggle with retrieving relevant information from massive datasets. Traditional search methods often fail to provide accurate, ranked results that users actually need. Our goal was to build a system that could:</p>
 <ul>
-<li><strong>Full-Stack Development</strong>: Building robust web applications with modern frameworks</li>
-<li><strong>AI Integration</strong>: Developing intelligent systems with LLM and machine learning</li>
-<li><strong>Cloud Computing</strong>: Architecting scalable solutions on AWS</li>
-<li><strong>FinTech Solutions</strong>: Creating innovative financial technology applications</li>
-<li><strong>Teaching</strong>: Currently serving as a Teaching Assistant for INF1002 Programming Fundamentals</li>
+<li>Efficiently index and retrieve large datasets</li>
+<li>Intelligently rank search results based on relevance</li>
+<li>Provide smart recommendations using machine learning</li>
+<li>Scale to handle enterprise-level data volumes</li>
 </ul>
 </section>
-<section id="current-focus" class="level3">
-<h3 class="anchored" data-anchor-id="current-focus">Current Focus</h3>
-<p>I’m currently aiming to pass my interview at Prudential on friday :)</p>
+<section id="technical-implementation" class="level3">
+<h3 class="anchored" data-anchor-id="technical-implementation">Technical Implementation</h3>
+<section id="system-architecture" class="level4">
+<h4 class="anchored" data-anchor-id="system-architecture">System Architecture</h4>
+<p>The platform was built using a <strong>data-driven approach</strong> with the following components:</p>
+<p><strong>Backend Infrastructure</strong> - Structured SQL databases for metadata storage - Custom indexing algorithms for fast retrieval - RESTful API for client-server communication</p>
+<p><strong>Machine Learning Pipeline</strong> - Integrated ML algorithms for intelligent ranking - Recommendation engine based on user behavior patterns - Natural language processing for query understanding</p>
+<p><strong>Search Engine Features</strong> - Advanced indexing mechanisms - Relevance scoring algorithms - Personalized search result ranking - Auto-complete and query suggestions</p>
+</section>
+</section>
+<section id="key-features" class="level3">
+<h3 class="anchored" data-anchor-id="key-features">Key Features</h3>
+<ol type="1">
+<li><strong>Intelligent Metadata Discovery</strong>: Automatically categorizes and tags data entries for improved searchability</li>
+<li><strong>Ranked Search Results</strong>: Uses ML models to rank results based on relevance and user context</li>
+<li><strong>Smart Recommendations</strong>: Suggests related metadata entries based on search patterns</li>
+<li><strong>Scalable Architecture</strong>: Designed to handle enterprise-level datasets efficiently</li>
+</ol>
+</section>
+<section id="technologies-used" class="level3">
+<h3 class="anchored" data-anchor-id="technologies-used">Technologies Used</h3>
+<ul>
+<li><strong>Languages</strong>: Python, SQL, JavaScript</li>
+<li><strong>Frameworks</strong>: Custom search engine implementation</li>
+<li><strong>Database</strong>: Structured SQL database</li>
+<li><strong>ML Libraries</strong>: Scikit-learn, TensorFlow</li>
+<li><strong>Tools</strong>: Git version control, Power BI for analytics</li>
+</ul>
+</section>
+<section id="impact-outcomes" class="level3">
+<h3 class="anchored" data-anchor-id="impact-outcomes">Impact &amp; Outcomes</h3>
+<p>The platform significantly improved the company’s data discovery capabilities:</p>
+<ul>
+<li>Reduced average search time by implementing efficient indexing</li>
+<li>Improved search accuracy through ML-powered ranking</li>
+<li>Enhanced user satisfaction with personalized recommendations</li>
+<li>Contributed to the company’s digital transformation initiatives</li>
+</ul>
+</section>
+<section id="what-i-learned" class="level3">
+<h3 class="anchored" data-anchor-id="what-i-learned">What I Learned</h3>
+<p>This project taught me:</p>
+<ul>
+<li>The importance of scalable database design for large datasets</li>
+<li>How to implement and tune machine learning algorithms for production use</li>
+<li>The value of user-centered design in search interfaces</li>
+<li>How to balance performance with accuracy in real-time systems</li>
+</ul>
+</section>
+<section id="future-enhancements" class="level3">
+<h3 class="anchored" data-anchor-id="future-enhancements">Future Enhancements</h3>
+<p>If I were to continue this project, I would explore:</p>
+<ul>
+<li>Integration with vector databases for semantic search</li>
+<li>Implementation of large language models for natural language queries</li>
+<li>Real-time data synchronization and updates</li>
+<li>Advanced analytics dashboard for search pattern insights</li>
+</ul>
 <hr>
-<p><strong>Contact</strong>: mailformatthewtan@gmail.com | <a href="https://www.linkedin.com/in/matthew-tan-104773225">LinkedIn</a></p>
+<p><em>This project was completed as part of my Final Year Project during my internship at First Com Solutions Pte Ltd, where I worked as a Web Developer Intern and contributed to the company’s AI and digital transformation initiatives.</em></p>
 
 
 </section>

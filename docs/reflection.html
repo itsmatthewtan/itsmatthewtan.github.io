@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Matthew Tan</title>
+<title>Reflection on the Use of GenAI – Matthew Tan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -90,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -106,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Data Visualization</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./reflection.html"> 
+    <a class="nav-link active" href="./reflection.html" aria-current="page"> 
 <span class="menu-text">GenAI Reflection</span></a>
   </li>  
 </ul>
@@ -125,10 +160,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a>
+  <li><a href="#my-experience-with-claude-anthropic" id="toc-my-experience-with-claude-anthropic" class="nav-link active" data-scroll-target="#my-experience-with-claude-anthropic">My Experience with Claude (Anthropic)</a>
   <ul class="collapse">
-  <li><a href="#what-i-do" id="toc-what-i-do" class="nav-link" data-scroll-target="#what-i-do">What I Do</a></li>
-  <li><a href="#current-focus" id="toc-current-focus" class="nav-link" data-scroll-target="#current-focus">Current Focus</a></li>
+  <li><a href="#why-i-chose-claude" id="toc-why-i-chose-claude" class="nav-link" data-scroll-target="#why-i-chose-claude">Why I Chose Claude</a></li>
+  <li><a href="#how-claude-helped-me-complete-this-assessment" id="toc-how-claude-helped-me-complete-this-assessment" class="nav-link" data-scroll-target="#how-claude-helped-me-complete-this-assessment">How Claude Helped Me Complete This Assessment</a></li>
+  <li><a href="#benefits-of-using-genai" id="toc-benefits-of-using-genai" class="nav-link" data-scroll-target="#benefits-of-using-genai">Benefits of Using GenAI</a></li>
+  <li><a href="#challenges-with-genai" id="toc-challenges-with-genai" class="nav-link" data-scroll-target="#challenges-with-genai">Challenges with GenAI</a></li>
+  <li><a href="#how-genai-will-assist-my-future-study-and-work" id="toc-how-genai-will-assist-my-future-study-and-work" class="nav-link" data-scroll-target="#how-genai-will-assist-my-future-study-and-work">How GenAI Will Assist My Future Study and Work</a></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -138,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Matthew Tan</h1>
+<h1 class="title">Reflection on the Use of GenAI</h1>
 </div>
 
 
@@ -155,28 +194,153 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div style="float:left; position: relative; top: 0px">
-<p><img src="matt.jpg" style="margin-right: 20px; border-radius: 10px;" height="150"></p>
-</div>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>I’m a Year 2 <strong>Applied Computing (FinTech)</strong> student at Singapore Institute of Technology with a passion for leveraging technology to create meaningful impact in financial services and technology sectors.</p>
-<p>With hands-on experience in <strong>full-stack development</strong>, <strong>database architecture</strong>, and <strong>AI integration</strong>, I’ve worked across various domains including cloud computing, AI voice automation, and FinTech solutions. My technical toolkit includes Java, Python, JavaScript, SQL, and modern web technologies, complemented by a strong foundation in business finance and data analytics.</p>
-<section id="what-i-do" class="level3">
-<h3 class="anchored" data-anchor-id="what-i-do">What I Do</h3>
+<section id="my-experience-with-claude-anthropic" class="level2">
+<h2 class="anchored" data-anchor-id="my-experience-with-claude-anthropic">My Experience with Claude (Anthropic)</h2>
+<section id="why-i-chose-claude" class="level3">
+<h3 class="anchored" data-anchor-id="why-i-chose-claude">Why I Chose Claude</h3>
+<p>For this assessment, I primarily used <strong>Claude by Anthropic</strong> as my GenAI tool. I chose Claude for several reasons:</p>
+<ol type="1">
+<li><strong>Technical Depth</strong>: Claude excels at understanding complex technical requirements and providing detailed, accurate code</li>
+<li><strong>Context Retention</strong>: Its ability to maintain context throughout long conversations helped streamline the development process</li>
+<li><strong>Code Quality</strong>: Claude generates clean, well-documented code that follows best practices</li>
+<li><strong>Explanation Quality</strong>: Beyond just providing solutions, Claude explains the “why” behind technical decisions</li>
+</ol>
+</section>
+<section id="how-claude-helped-me-complete-this-assessment" class="level3">
+<h3 class="anchored" data-anchor-id="how-claude-helped-me-complete-this-assessment">How Claude Helped Me Complete This Assessment</h3>
+<section id="github-setup-and-configuration" class="level4">
+<h4 class="anchored" data-anchor-id="github-setup-and-configuration">1. GitHub Setup and Configuration</h4>
+<p><strong>Challenge</strong>: I encountered issues with GitHub authentication and repository setup.</p>
+<p><strong>How Claude Helped</strong>: - Provided step-by-step commands for Git configuration - Helped troubleshoot 2FA authentication issues - Guided me through the process of making my repository public and configuring GitHub Pages</p>
+<p><strong>Example</strong>: When I couldn’t access my school GitHub due to 2FA issues, Claude helped me switch to my personal account and configure Git with the correct credentials:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"itsmatthewtan"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"mailformatthewtan@gmail.com"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="quarto-website-development" class="level4">
+<h4 class="anchored" data-anchor-id="quarto-website-development">2. Quarto Website Development</h4>
+<p><strong>Challenge</strong>: Setting up and configuring Quarto for GitHub Pages deployment.</p>
+<p><strong>How Claude Helped</strong>: - Explained the importance of the <code>output-dir: docs</code> configuration - Guided me through the rendering process in RStudio - Helped troubleshoot when files weren’t appearing in the correct directory</p>
+<p><strong>Key Learning</strong>: Understanding that I needed to render from the correct project directory, not the temporary website folder.</p>
+</section>
+<section id="content-creation-and-formatting" class="level4">
+<h4 class="anchored" data-anchor-id="content-creation-and-formatting">3. Content Creation and Formatting</h4>
+<p><strong>Challenge</strong>: Structuring content effectively using Markdown and creating professional-looking pages.</p>
+<p><strong>How Claude Helped</strong>: - Generated well-formatted Markdown templates for all pages - Helped organize my existing content (resume, project descriptions) into web-friendly formats - Provided examples of effective Markdown syntax for images, links, and code blocks</p>
+<p><strong>Example</strong>: Claude transformed my resume bullet points into engaging narrative content for the FYP project page, making it more suitable for a personal website.</p>
+</section>
+<section id="problem-solving-and-debugging" class="level4">
+<h4 class="anchored" data-anchor-id="problem-solving-and-debugging">4. Problem-Solving and Debugging</h4>
+<p><strong>Challenge</strong>: Various technical issues throughout the development process.</p>
+<p><strong>How Claude Helped</strong>: - Diagnosed why files weren’t being pushed to GitHub - Explained the Git staging process when I was confused about unstaged files - Provided clear explanations for each error message I encountered</p>
+</section>
+</section>
+<section id="benefits-of-using-genai" class="level3">
+<h3 class="anchored" data-anchor-id="benefits-of-using-genai">Benefits of Using GenAI</h3>
+<section id="time-efficiency" class="level4">
+<h4 class="anchored" data-anchor-id="time-efficiency">1. Time Efficiency</h4>
 <ul>
-<li><strong>Full-Stack Development</strong>: Building robust web applications with modern frameworks</li>
-<li><strong>AI Integration</strong>: Developing intelligent systems with LLM and machine learning</li>
-<li><strong>Cloud Computing</strong>: Architecting scalable solutions on AWS</li>
-<li><strong>FinTech Solutions</strong>: Creating innovative financial technology applications</li>
-<li><strong>Teaching</strong>: Currently serving as a Teaching Assistant for INF1002 Programming Fundamentals</li>
+<li>Reduced research time significantly</li>
+<li>Got instant answers to technical questions</li>
+<li>Avoided trial-and-error debugging</li>
 </ul>
 </section>
-<section id="current-focus" class="level3">
-<h3 class="anchored" data-anchor-id="current-focus">Current Focus</h3>
-<p>I’m currently aiming to pass my interview at Prudential on friday :)</p>
+<section id="learning-enhancement" class="level4">
+<h4 class="anchored" data-anchor-id="learning-enhancement">2. Learning Enhancement</h4>
+<ul>
+<li>Received explanations alongside solutions</li>
+<li>Learned best practices in real-time</li>
+<li>Understood the “why” behind technical decisions</li>
+</ul>
+</section>
+<section id="error-prevention" class="level4">
+<h4 class="anchored" data-anchor-id="error-prevention">3. Error Prevention</h4>
+<ul>
+<li>Caught potential mistakes before they became problems</li>
+<li>Received warnings about common pitfalls</li>
+<li>Got guidance on proper workflows</li>
+</ul>
+</section>
+<section id="professional-quality" class="level4">
+<h4 class="anchored" data-anchor-id="professional-quality">4. Professional Quality</h4>
+<ul>
+<li>Generated clean, well-structured code</li>
+<li>Produced professional-looking documentation</li>
+<li>Created consistent formatting across all pages</li>
+</ul>
+</section>
+</section>
+<section id="challenges-with-genai" class="level3">
+<h3 class="anchored" data-anchor-id="challenges-with-genai">Challenges with GenAI</h3>
+<section id="context-limitations" class="level4">
+<h4 class="anchored" data-anchor-id="context-limitations">1. Context Limitations</h4>
+<ul>
+<li>Sometimes needed to repeat information when conversations got long</li>
+<li>Had to be specific about which project or folder I was working in</li>
+<li>Required clear communication to avoid misunderstandings</li>
+</ul>
+</section>
+<section id="file-system-navigation" class="level4">
+<h4 class="anchored" data-anchor-id="file-system-navigation">2. File System Navigation</h4>
+<ul>
+<li>Claude couldn’t directly see my file structure</li>
+<li>Needed to provide screenshots to show current state</li>
+<li>Had to manually verify that suggested commands worked</li>
+</ul>
+</section>
+<section id="assumptions-and-verification" class="level4">
+<h4 class="anchored" data-anchor-id="assumptions-and-verification">3. Assumptions and Verification</h4>
+<ul>
+<li>Occasionally made assumptions about my setup</li>
+<li>Needed to verify that paths and configurations were correct for my system</li>
+<li>Had to adapt some suggestions to my specific environment</li>
+</ul>
+</section>
+<section id="over-reliance-risk" class="level4">
+<h4 class="anchored" data-anchor-id="over-reliance-risk">4. Over-Reliance Risk</h4>
+<ul>
+<li>Easy to ask for solutions without fully understanding them</li>
+<li>Important to review and understand all generated code</li>
+<li>Need to maintain critical thinking about suggestions</li>
+</ul>
+</section>
+</section>
+<section id="how-genai-will-assist-my-future-study-and-work" class="level3">
+<h3 class="anchored" data-anchor-id="how-genai-will-assist-my-future-study-and-work">How GenAI Will Assist My Future Study and Work</h3>
+<section id="academic-context" class="level4">
+<h4 class="anchored" data-anchor-id="academic-context">Academic Context</h4>
+<ol type="1">
+<li><strong>Programming Assignments</strong>: Quick debugging and code review partner</li>
+<li><strong>Research Projects</strong>: Help with data analysis and visualization code</li>
+<li><strong>Documentation</strong>: Generate clear, professional documentation</li>
+<li><strong>Learning New Technologies</strong>: Accelerate learning curve for new frameworks</li>
+</ol>
+</section>
+<section id="professional-context" class="level4">
+<h4 class="anchored" data-anchor-id="professional-context">Professional Context</h4>
+<ol type="1">
+<li><strong>Code Reviews</strong>: Get instant feedback on code quality</li>
+<li><strong>Problem Solving</strong>: Brainstorm solutions to complex technical challenges</li>
+<li><strong>Documentation</strong>: Create comprehensive technical documentation</li>
+<li><strong>Rapid Prototyping</strong>: Quickly build proof-of-concepts</li>
+</ol>
+</section>
+<section id="best-practices-ive-developed" class="level4">
+<h4 class="anchored" data-anchor-id="best-practices-ive-developed">Best Practices I’ve Developed</h4>
+<ol type="1">
+<li><strong>Always Verify</strong>: Never blindly copy-paste without understanding</li>
+<li><strong>Ask for Explanations</strong>: Request the reasoning behind solutions</li>
+<li><strong>Iterate and Refine</strong>: Use GenAI as a collaborative tool, not a replacement for thinking</li>
+<li><strong>Learn Actively</strong>: Use GenAI responses as learning opportunities</li>
+</ol>
+</section>
+</section>
+<section id="final-thoughts" class="level3">
+<h3 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h3>
+<p>Using Claude for this assessment has been invaluable. It’s not just about getting quick answers—it’s about having an intelligent assistant that can explain concepts, catch mistakes, and help me work more efficiently. The key is to use it as a learning tool rather than a crutch.</p>
+<p><strong>The most important lesson</strong>: GenAI is most effective when you engage with it critically, ask good questions, and take time to understand the solutions it provides rather than just implementing them blindly.</p>
+<p>Moving forward, I plan to continue using GenAI tools like Claude as a “senior developer” I can consult, while always maintaining my own understanding and critical thinking about the code and solutions I implement.</p>
 <hr>
-<p><strong>Contact</strong>: mailformatthewtan@gmail.com | <a href="https://www.linkedin.com/in/matthew-tan-104773225">LinkedIn</a></p>
+<p><em>This reflection represents my genuine experience using Claude (Anthropic) to complete this Quarto website assessment, including both the benefits and challenges I encountered.</em></p>
 
 
 </section>

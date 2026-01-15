@@ -1,0 +1,84 @@
+---
+title: "FYP Project: Meta-Data Management & Intelligent Search Platform"
+---
+
+## Project Overview
+
+During my internship at **First Com Solutions Pte Ltd** (Aug 2021 - Mar 2022), I led the development of an intelligent metadata management and search platform as part of the company's digital transformation initiative.
+
+### The Challenge
+
+Organizations today struggle with retrieving relevant information from massive datasets. Traditional search methods often fail to provide accurate, ranked results that users actually need. Our goal was to build a system that could:
+
+- Efficiently index and retrieve large datasets
+- Intelligently rank search results based on relevance
+- Provide smart recommendations using machine learning
+- Scale to handle enterprise-level data volumes
+
+### Technical Implementation
+
+#### System Architecture
+
+The platform was built using a **data-driven approach** with the following components:
+
+**Backend Infrastructure**
+- Structured SQL databases for metadata storage
+- Custom indexing algorithms for fast retrieval
+- RESTful API for client-server communication
+
+**Machine Learning Pipeline**
+- Integrated ML algorithms for intelligent ranking
+- Recommendation engine based on user behavior patterns
+- Natural language processing for query understanding
+
+**Search Engine Features**
+- Advanced indexing mechanisms
+- Relevance scoring algorithms
+- Personalized search result ranking
+- Auto-complete and query suggestions
+
+### Key Features
+
+1. **Intelligent Metadata Discovery**: Automatically categorizes and tags data entries for improved searchability
+2. **Ranked Search Results**: Uses ML models to rank results based on relevance and user context
+3. **Smart Recommendations**: Suggests related metadata entries based on search patterns
+4. **Scalable Architecture**: Designed to handle enterprise-level datasets efficiently
+
+### Technologies Used
+
+- **Languages**: Python, SQL, JavaScript
+- **Frameworks**: Custom search engine implementation
+- **Database**: Structured SQL database
+- **ML Libraries**: Scikit-learn, TensorFlow
+- **Tools**: Git version control, Power BI for analytics
+
+### Impact & Outcomes
+
+The platform significantly improved the company's data discovery capabilities:
+
+- Reduced average search time by implementing efficient indexing
+- Improved search accuracy through ML-powered ranking
+- Enhanced user satisfaction with personalized recommendations
+- Contributed to the company's digital transformation initiatives
+
+### What I Learned
+
+This project taught me:
+
+- The importance of scalable database design for large datasets
+- How to implement and tune machine learning algorithms for production use
+- The value of user-centered design in search interfaces
+- How to balance performance with accuracy in real-time systems
+
+### Future Enhancements
+
+If I were to continue this project, I would explore:
+
+- Integration with vector databases for semantic search
+- Implementation of large language models for natural language queries
+- Real-time data synchronization and updates
+- Advanced analytics dashboard for search pattern insights
+
+---
+
+*This project was completed as part of my Final Year Project during my internship at First Com Solutions Pte Ltd, where I worked as a Web Developer Intern and contributed to the company's AI and digital transformation initiatives.*
