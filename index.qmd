@@ -67,6 +67,18 @@ I'm a **passionate technologist** with hands-on experience in:
 
 ---
 
+## 🎬 Featured: My Most Recent Hackathon
+
+::: {.section-card style="text-align: center;"}
+Watch my team's pitch at **HackRift 2025** where we built **Hasslefree** - an AI-powered multilingual voice documentation system for healthcare:
+
+{{< video https://www.youtube.com/watch?v=3Lj1NIMITKA width="100%" height="500" >}}
+
+*Our solution uses edge computing and LLM technology to transform doctor-patient conversations into structured medical records in real-time, breaking language barriers in healthcare.*
+:::
+
+---
+
 ## 🚀 Recent Highlights
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;"}
