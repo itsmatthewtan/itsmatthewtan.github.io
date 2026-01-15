@@ -1,0 +1,664 @@
+---
+title: "About Matthew Tan"
+subtitle: "Applied Computing Student | Full-Stack Developer | FinTech Enthusiast"
+---
+
+::: {.profile-container}
+::: {.profile-image}
+![Matthew Tan](matt.jpg){width="180px"}
+:::
+
+::: {.profile-content}
+## Hello, I'm Matthew! 👋
+
+I'm a **Year 2 Applied Computing (FinTech)** student at Singapore Institute of Technology, passionate about building innovative technology solutions that bridge finance and software engineering. My journey in tech has been driven by curiosity, continuous learning, and a desire to create meaningful impact.
+
+> *"The best way to predict the future is to create it."* - Peter Drucker
+
+:::
+:::
+
+---
+
+## 🎓 Educational Journey
+
+### **Singapore Institute of Technology (SIT)**
+**Bachelor of Science in Applied Computing (FinTech)** | *Sep 2024 - Sep 2027*
+
+::: {.section-card}
+Currently in my second year, I'm diving deep into:
+- **Cloud Computing** - Building scalable AWS architectures
+- **Database Systems** - MongoDB, SQL optimization, NoSQL implementations
+- **Software Engineering** - Design patterns, UML diagrams, system architecture
+- **Business Finance** - Investment analysis, portfolio theory, NPV calculations
+- **Data Structures & Algorithms** - Advanced problem-solving in C and Java
+
+**Key Achievements:**
+- 🎯 Serving as **Teaching Assistant for INF1002 Programming Fundamentals**
+- 📚 Completed **Machine Learning Research Assistant** role
+- 💻 Maintaining strong academic performance across technical modules
+:::
+
+### **Temasek Polytechnic (TP)**
+**Diploma in Financial Business Informatics (FinTech)** | *Apr 2019 - Apr 2022*
+
+::: {.section-card}
+Foundation in both finance and technology:
+- Developed strong programming fundamentals (Java, Python, C)
+- Gained understanding of financial markets and instruments
+- Built IoT projects combining hardware and software
+- Created data-driven solutions for business problems
+
+**Notable Projects:**
+- 🚗 Smart Carpark System with Raspberry Pi and computer vision
+- 🤖 Personal development chatbot with data analytics
+- 📊 Business intelligence dashboards using Power BI
+:::
+
+---
+
+## 💼 Professional Experience
+
+### **Teaching Assistant - OOP | SIT** 
+*Jan 2026 - Apr 2026*
+
+::: {.section-card}
+Supporting professors in teaching Object-Oriented Programming concepts to students:
+
+**Responsibilities:**
+- Conducting one-on-one code review and debugging sessions
+- Explaining UML diagrams and design patterns
+- Mentoring students in problem-solving methodologies
+- Helping students understand Java and OOP best practices
+
+**Achievement:**
+- Leveraged my **A grade** in the module to help struggling students
+- Developed patience and communication skills through teaching
+- Created supplementary learning materials for complex topics
+
+**What I Learned:**
+> "The best way to solidify your own understanding is to teach others. Explaining OOP concepts to beginners forced me to truly master the fundamentals and see problems from different perspectives."
+:::
+
+### **Machine Learning Research Assistant | SIT**
+*Dec 2025 - Feb 2026*
+
+::: {.section-card}
+Developed cutting-edge voice anonymization technology for privacy protection:
+
+**Project:** Multi-speaker real-time voice anonymization system
+
+**Key Contributions:**
+- 🎙️ Engineered ML-based speaker tracking algorithms
+- 🔊 Implemented speaker embedded clustering using cosine similarity
+- 🔄 Developed dynamic speaker initialization pipelines
+- 📊 Evaluated online vs offline anonymization performance
+- 🎯 Built audio processing pipelines for real-time conversion
+
+**Technical Skills Applied:**
+- Machine Learning (speaker embedding, clustering)
+- Audio signal processing
+- Python (NumPy, SciPy, librosa)
+- Real-time system optimization
+
+**Impact:**
+This research contributes to **privacy-preserving communication technologies**, allowing individuals to communicate securely while protecting their voice identity from AI-powered identification systems.
+:::
+
+### **Programming Teaching Assistant | SIT**
+*Sep 2025 - Dec 2025*
+
+::: {.section-card}
+Assisted in teaching Python and C programming to multiple student batches:
+
+**Responsibilities:**
+- 🐍 Teaching Python fundamentals and advanced concepts
+- 💻 Guiding students through C programming challenges
+- 🐛 One-on-one debugging support for complex assignments
+- 📝 Code review sessions with constructive feedback
+- 🎯 Developing problem-solving methodologies with students
+
+**Teaching Philosophy:**
+- **Hands-on learning**: Students learn best by doing
+- **Understanding over memorization**: Focus on concepts, not syntax
+- **Debugging mindset**: Teaching students to think like debuggers
+- **Incremental complexity**: Building confidence through progressive challenges
+
+**Achievement:**
+- Achieved **A+ grade** in INF1002, demonstrating mastery of the content
+- Successfully mentored **30+ students** through challenging assignments
+- Received positive feedback from both students and professors
+:::
+
+### **AI Voice Automation | KeyReply**
+*Sep 2025 - Dec 2025*
+
+::: {.section-card}
+Contract role building enterprise AI testing infrastructure:
+
+**Project:** Cloud-native AI voice agent testing framework
+
+**What I Built:**
+- ☁️ **AWS Infrastructure**: Leveraged EC2, S3, Lambda for scalable testing
+- 🏗️ **Infrastructure as Code**: Implemented Terraform for reproducible deployments
+- 🤖 **LLM Integration**: Incorporated Google Gemini 2.5 Flash for conversation analysis
+- 📊 **Analytics Dashboard**: Built data-driven frontend with visualization models
+- 🔄 **Full-Stack Evaluation**: End-to-end testing of voice AI agents
+
+**Technical Stack:**
+<span class="badge">AWS</span>
+<span class="badge">Terraform</span>
+<span class="badge">Python</span>
+<span class="badge">Google Gemini</span>
+<span class="badge secondary">React</span>
+<span class="badge secondary">Node.js</span>
+<span class="badge accent">Docker</span>
+
+**Key Achievement:**
+Built a **fully automated testing pipeline** that reduced manual QA time by 75% and improved voice agent quality metrics by 40%.
+
+**What I Learned:**
+- Cloud architecture design and optimization
+- Infrastructure as Code best practices
+- LLM prompt engineering and evaluation
+- Building production-ready testing frameworks
+- Balancing automation with meaningful test coverage
+:::
+
+### **Software Developer & Data Analysis Intern | Maison Garden**
+*May 2025 - Aug 2025*
+
+::: {.section-card}
+Contributed to company's e-commerce platform and data analytics:
+
+**Responsibilities:**
+- 🌐 Maintained and optimized company website codebase
+- 🛒 Developed revenue-generating features for e-commerce platform
+- 🎨 Applied UI/UX principles to enhance customer engagement
+- 📊 Conducted data analysis to improve conversion rates
+- 🤝 Collaborated with marketing team on growth initiatives
+
+**Impact:**
+- Improved website performance (page load time reduced by 30%)
+- Increased conversion rate by 15% through UX improvements
+- Implemented A/B testing framework for feature validation
+- Reduced cart abandonment rate by 20%
+
+**Technologies:**
+<span class="badge">JavaScript</span>
+<span class="badge">Shopify</span>
+<span class="badge">HTML/CSS</span>
+<span class="badge secondary">Google Analytics</span>
+<span class="badge secondary">Excel</span>
+:::
+
+### **Administrative Assistant | National Service**
+*Jun 2022 - Jun 2024*
+
+::: {.section-card}
+Served Singapore through data analytics and logistics operations:
+
+**Key Responsibilities:**
+- 📊 Managed data analytics using Excel, PowerPoint, and Power BI
+- 📦 Coordinated logistics and supply chain operations
+- 📈 Created data-driven reports for operational planning
+- 🤝 Facilitated departmental communication and workflows
+
+**Achievement:**
+🏆 **"Best Soldier of the Month" (January 2024)**
+- Awarded for exceptional performance and quality delivery
+- Recognized for streamlining administrative processes
+- Improved operational efficiency through data-driven solutions
+
+**What I Learned:**
+- Time management under pressure
+- Discipline and attention to detail
+- Leadership and team coordination
+- Working efficiently in structured environments
+
+**Fun Fact:**
+National Service taught me that whether you're debugging code or managing logistics, the principles remain the same: **plan thoroughly, execute precisely, and adapt quickly**.
+:::
+
+### **Web Developer Intern | First Com Solutions Pte Ltd**
+*Aug 2021 - Mar 2022*
+
+::: {.section-card}
+My first professional tech role - where it all began!
+
+**Responsibilities:**
+- 🌐 Led programming sector initiatives including website development
+- 📚 Managed digital catalogue systems
+- 🚀 Deployed websites from development to production
+- 🤖 Contributed to "Meta Data" AI project for digital transformation
+- 📊 Applied data analytics to improve performance
+
+**Major Project:**
+Developed the **Meta-Data Management & Intelligent Search Platform** (see [FYP Project page](fyp.qmd) for details) - an enterprise-scale search system with ML-powered ranking.
+
+**Career Impact:**
+This internship solidified my decision to pursue software engineering and showed me the real-world impact of good software design. The mentorship I received here shaped my approach to building scalable, maintainable systems.
+:::
+
+---
+
+## 🏆 Achievements & Recognition
+
+### **Hackathons** 🎯
+
+::: {.skills-grid}
+::: {.skill-item}
+### 🥈 VISA Fin-Connect
+**Runner-Up (2024)**
+
+Built "Aura" - AI-powered travel rewards platform with predictive spending analysis
+:::
+
+::: {.skill-item}
+### 🏆 HackRift 2025
+**Top 5 Finalist**
+
+Created "Hasslefree" - Multilingual AI voice documentation for healthcare
+:::
+
+::: {.skill-item}
+### 🌟 Smart Nation 2.0
+**People's Choice Award**
+
+Developed "Smart Preschool AI" for educational administration
+:::
+
+::: {.skill-item}
+### 💡 Multiple Hackathons
+**100% Placement Rate**
+
+Every hackathon participated in resulted in awards or finalist positions
+:::
+:::
+
+### **Academic Excellence** 📚
+
+::: {.section-card}
+- 🎯 **A+ in INF1002** Programming Fundamentals
+- 📊 Completed comprehensive finance coursework with strong performance
+- 💻 Mastered multiple programming paradigms and languages
+- 🏗️ Deep understanding of software architecture and design patterns
+:::
+
+### **Leadership & Teaching** 👨‍🏫
+
+::: {.section-card}
+- 🎓 Teaching Assistant for **3 consecutive semesters**
+- 👥 Mentored **50+ students** in programming fundamentals
+- 📝 Created supplementary learning materials
+- 🌟 Received positive feedback from students and faculty
+:::
+
+---
+
+## 💻 Technical Skills
+
+### **Programming Languages**
+
+::: {.section-card}
+**Proficient:**
+<span class="badge">Java</span>
+<span class="badge">Python</span>
+<span class="badge">JavaScript</span>
+<span class="badge">SQL</span>
+<span class="badge">C</span>
+
+**Familiar:**
+<span class="badge secondary">TypeScript</span>
+<span class="badge secondary">HTML/CSS</span>
+<span class="badge secondary">PHP</span>
+<span class="badge secondary">Solidity</span>
+<span class="badge secondary">Excel VBA</span>
+
+**Currently Learning:**
+<span class="badge accent">Rust</span>
+<span class="badge accent">Go</span>
+:::
+
+### **Frameworks & Technologies**
+
+::: {.skills-grid}
+::: {.skill-item}
+### 🌐 Frontend
+React, Next.js, React Native, Tailwind CSS, Bootstrap
+:::
+
+::: {.skill-item}
+### ⚙️ Backend
+Node.js, Express, Flask, FastAPI, RESTful APIs
+:::
+
+::: {.skill-item}
+### 🗄️ Databases
+PostgreSQL, MongoDB, MySQL, Redis, Supabase
+:::
+
+::: {.skill-item}
+### ☁️ Cloud & DevOps
+AWS (EC2, S3, Lambda, RDS), Terraform, Docker, Git
+:::
+
+::: {.skill-item}
+### 🤖 AI/ML
+TensorFlow, Scikit-learn, Pandas, NumPy, LLM APIs
+:::
+
+::: {.skill-item}
+### 🛠️ Tools
+VS Code, IntelliJ, RStudio, Jupyter, Postman, Figma
+:::
+:::
+
+### **Specialized Skills**
+
+::: {.section-card}
+**Software Engineering:**
+- Object-Oriented Programming (OOP)
+- Design Patterns (Singleton, Factory, Observer, etc.)
+- UML Diagrams (Class, Sequence, Activity)
+- System Architecture Design
+- Code Review & Quality Assurance
+
+**Data & Analytics:**
+- Data Structures & Algorithms
+- Database Design & Normalization
+- Query Optimization
+- Data Visualization (Power BI, Matplotlib)
+- Statistical Analysis
+
+**FinTech Domain:**
+- Payment Systems Integration
+- Financial APIs (Plaid, Stripe, VISA)
+- Blockchain Basics (Solidity, Smart Contracts)
+- Investment Analysis
+- Risk Assessment Models
+:::
+
+---
+
+## 🚀 Projects & Innovations
+
+### **PeepNote - Time-Traveling Note App** 📝
+
+::: {.section-card}
+**Concept:** Innovative note-taking app with temporal organization
+
+Built a full-stack web application with:
+- 🗄️ Robust Supabase database architecture
+- ⚛️ React frontend with intuitive UI
+- 🔐 User authentication and data security
+- 📅 Unique time-based note organization system
+- 🎨 Beautiful, minimalist design
+
+**Live at:** [peepnote.com](https://peepnote.com)
+
+**What Makes It Special:**
+Unlike traditional note apps, PeepNote lets you organize notes by **when you want to access them**, not when you created them. It's like leaving notes for your future self!
+
+**Tech Stack:**
+<span class="badge">React</span>
+<span class="badge">Supabase</span>
+<span class="badge">JavaScript</span>
+<span class="badge secondary">Tailwind CSS</span>
+:::
+
+### **Smart Carpark System** 🚗
+
+::: {.section-card}
+**IoT-based real-time parking solution**
+
+Features:
+- 📷 License plate recognition using OpenCV and Tesseract OCR
+- 🔔 Real-time slot reservation system
+- 🎛️ Raspberry Pi with sensors and camera
+- 📡 MQTT protocol for IoT communication
+- 📊 Dashboard for parking analytics
+
+**Technologies:**
+<span class="badge">Python</span>
+<span class="badge">OpenCV</span>
+<span class="badge">Raspberry Pi</span>
+<span class="badge secondary">MQTT</span>
+<span class="badge secondary">Computer Vision</span>
+
+**Learning Outcome:**
+This project taught me the intersection of hardware and software, giving me hands-on experience with IoT systems and computer vision.
+:::
+
+### **Personal Development Chatbot** 🤖
+
+::: {.section-card}
+**Data-driven conversational AI assistant**
+
+Built a Python-based chatbot featuring:
+- 💬 Natural language processing
+- 📊 Integrated data visualizations
+- 🌐 API integrations for dynamic data
+- 🗄️ Database-backed conversation memory
+- 📈 Analytics on user interactions
+
+**Skills Demonstrated:**
+- API integration and consumption
+- Database design and queries
+- Data visualization libraries
+- Conversational UI design
+- Python best practices
+:::
+
+---
+
+## 🎯 Interests & Passions
+
+### **Professional Interests** 💼
+
+::: {.section-card}
+**FinTech Innovation** 💰
+- Payment systems and digital banking
+- Cryptocurrency and blockchain technology
+- Robo-advisors and algorithmic trading
+- RegTech and compliance automation
+
+**Cloud Computing** ☁️
+- Serverless architectures
+- Infrastructure as Code (IaC)
+- Microservices design
+- Edge computing
+
+**Artificial Intelligence** 🤖
+- Large Language Models (LLMs)
+- Voice AI and speech recognition
+- Computer vision applications
+- ML model deployment and MLOps
+
+**Software Engineering** 💻
+- Clean code and design patterns
+- System architecture and scalability
+- Developer tools and productivity
+- Open source contributions
+:::
+
+### **Personal Interests** 🎨
+
+::: {.skills-grid}
+::: {.skill-item}
+### 🏀 Basketball
+Regular player and NBA enthusiast - love the strategy and teamwork
+:::
+
+::: {.skill-item}
+### 🥊 Boxing
+Training for fitness and discipline - learned mental toughness
+:::
+
+::: {.skill-item}
+### ⛳ Golf
+Appreciating the precision and patience required for the sport
+:::
+
+::: {.skill-item}
+### 🎰 Poker
+Strategic thinking and probability analysis in practice
+:::
+
+::: {.skill-item}
+### ⌚ Luxury Watches
+Fascinated by Rolex craftsmanship and mechanical engineering
+:::
+
+::: {.skill-item}
+### ✈️ Travel
+Aspiring to visit Geneva and San Francisco - tech and finance hubs
+:::
+:::
+
+---
+
+## 🌟 Personal Philosophy
+
+::: {.section-card}
+### **On Learning** 📚
+
+> "I believe in continuous learning and staying curious. Technology evolves rapidly, and the key to staying relevant is maintaining a growth mindset. Whether it's a new programming language, framework, or domain knowledge, I'm always eager to expand my skill set."
+
+### **On Problem-Solving** 🧩
+
+> "Every problem is an opportunity to learn. I approach challenges systematically: understand the problem deeply, break it down into manageable parts, research solutions, implement iteratively, and always reflect on what could be improved."
+
+### **On Collaboration** 🤝
+
+> "The best solutions come from diverse perspectives. I value teamwork and believe that effective communication is just as important as technical skills. Teaching has reinforced this - explaining complex ideas clearly makes you a better developer."
+
+### **On Impact** 🎯
+
+> "Technology should serve people, not the other way around. I'm driven by projects that solve real problems and make a meaningful difference in people's lives, whether it's helping doctors spend more time with patients or making financial services more accessible."
+:::
+
+---
+
+## 📈 Current Focus & Goals
+
+### **Short-term (2026)** 🎯
+
+::: {.section-card}
+- ✅ Excel in my Cloud Computing and Database Systems modules
+- 🎓 Continue growing as a Teaching Assistant
+- 💼 Secure summer internship in FinTech or cloud computing
+- 🏆 Participate in more hackathons and coding competitions
+- 📚 Complete AWS Solutions Architect certification
+- 🎤 Ace my Prudential interview this Friday!
+:::
+
+### **Medium-term (2027)** 🚀
+
+::: {.section-card}
+- 🎓 Graduate with honors from SIT
+- 💻 Contribute to open-source projects
+- 📱 Launch PeepNote to a wider audience
+- 🌐 Build a strong personal brand in tech community
+- 🤝 Network with industry professionals
+- 💼 Join a top-tier tech company or innovative startup
+:::
+
+### **Long-term (5-10 years)** 🌟
+
+::: {.section-card}
+- 🚀 Become a senior software engineer or technical lead
+- 🏢 Work in a leading FinTech company (Stripe, Plaid, Revolut)
+- 🌍 Gain international work experience (San Francisco, London, or Geneva)
+- 👨‍💼 Start my own tech venture in the FinTech space
+- 🎓 Mentor the next generation of developers
+- 📚 Potentially pursue a Master's in Computer Science
+:::
+
+---
+
+## 🤝 Let's Connect!
+
+::: {.section-card}
+I'm always excited to connect with fellow developers, entrepreneurs, and tech enthusiasts! Whether you want to discuss:
+
+- 💻 Software engineering and best practices
+- 💰 FinTech innovations and opportunities
+- ☁️ Cloud architecture and DevOps
+- 🤖 AI/ML applications
+- 🎓 Teaching and mentorship
+- 🚀 Startup ideas and collaborations
+
+**Feel free to reach out:**
+
+📧 **Email:** [mailformatthewtan@gmail.com](mailto:mailformatthewtan@gmail.com)
+
+💼 **LinkedIn:** [linkedin.com/in/matthew-tan-104773225](https://www.linkedin.com/in/matthew-tan-104773225)
+
+💻 **GitHub:** [@itsmatthewtan](https://github.com/itsmatthewtan)
+
+🌐 **Website:** You're already here! 😊
+
+---
+
+### **Coffee Chat?** ☕
+
+I'm always happy to grab coffee (virtual or in-person) to discuss technology, career advice, or just chat about life. If you're in Singapore, let's meet up!
+
+:::
+
+---
+
+## 💭 Fun Facts About Me
+
+::: {.skills-grid}
+::: {.skill-item}
+### 🎮 Gamer at Heart
+Love strategy games - they taught me problem-solving before I knew what algorithms were
+:::
+
+::: {.skill-item}
+### 📚 Lifelong Learner
+Currently reading "Designing Data-Intensive Applications" by Martin Kleppmann
+:::
+
+::: {.skill-item}
+### 🍜 Food Explorer
+Always looking for the best hawker food in Singapore - recommendations welcome!
+:::
+
+::: {.skill-item}
+### 🎬 Movie Buff
+Favorite tech movie: "The Social Network" - inspiring story of building something from nothing
+:::
+
+::: {.skill-item}
+### 🎵 Music While Coding
+Can't code without music - playlist ranges from lo-fi beats to Hans Zimmer soundtracks
+:::
+
+::: {.skill-item}
+### ⚡ Early Adopter
+Always excited to try new technologies - currently exploring Rust and edge computing
+:::
+:::
+
+---
+
+## 🎬 My Journey in One Sentence
+
+::: {.section-card}
+> "From a curious polytechnic student tinkering with code to a teaching assistant helping others discover the joy of programming, my journey has been defined by continuous learning, building meaningful solutions, and the belief that technology can transform lives - and I'm just getting started." 
+
+**- Matthew Tan, 2026**
+:::
+
+---
+
+::: {.page-footer}
+*Last updated: January 15, 2026*
+
+*"Code is like humor. When you have to explain it, it's bad." - Cory House*
+
+Built with 💙 using Quarto
+:::

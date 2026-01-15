@@ -4,21 +4,40 @@ project:
 
 website:
   title: "Matthew Tan"
+  description: "Applied Computing (FinTech) Student at SIT | Full-Stack Developer | FinTech Enthusiast"
+  favicon: matt.jpg
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: Home
+        icon: house-fill
       - href: fyp.qmd
         text: FYP Project
+        icon: gear-fill
       - href: hackathons.qmd
         text: Hackathons
+        icon: trophy-fill
       - href: data-visualization.qmd
         text: Data Visualization
+        icon: bar-chart-fill
       - href: reflection.qmd
         text: GenAI Reflection
+        icon: lightbulb-fill
+    right:
+      - icon: github
+        href: https://github.com/itsmatthewtan
+      - icon: linkedin
+        href: https://www.linkedin.com/in/matthew-tan-104773225
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: [cosmo, custom.scss]
     css: styles.css
     toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    smooth-scroll: true
+    link-external-newwindow: true
