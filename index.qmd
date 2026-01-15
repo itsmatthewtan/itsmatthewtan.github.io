@@ -1,118 +1,152 @@
 ---
 title: "Matthew Tan"
-subtitle: "Applied Computing (FinTech) Student | Full-Stack Developer | Cloud Enthusiast"
+subtitle: "Applied Computing (FinTech) | Full-Stack Developer | Cloud Enthusiast"
+page-layout: full
 ---
 
-::: {.profile-container}
-::: {.profile-image}
-![Matthew Tan](matt.jpg){width="180px"}
-:::
+::: {style="text-align: center; padding: 3rem 0;"}
+![](matt.jpg){width="200px" style="border-radius: 50%; border: 5px solid #2E86AB; box-shadow: 0 8px 16px rgba(0,0,0,0.2);"}
 
-::: {.profile-content}
-## Welcome to My Portfolio! 👋
+# Welcome to My Portfolio 👋
 
-I'm a **Year 2 Applied Computing (FinTech)** student at Singapore Institute of Technology, passionate about leveraging technology to create meaningful impact in financial services and technology sectors.
+## I'm Matthew Tan
 
-> *"Innovation distinguishes between a leader and a follower."* - Steve Jobs
+**Year 2 Applied Computing (FinTech) Student at SIT**
 
-[📧 Email](mailto:mailformatthewtan@gmail.com) | [💼 LinkedIn](https://www.linkedin.com/in/matthew-tan-104773225) | [💻 GitHub](https://github.com/itsmatthewtan)
-:::
+Building innovative solutions at the intersection of finance and technology
 :::
 
 ---
 
-## 🎯 About Me
+::: {style="max-width: 900px; margin: 0 auto; padding: 2rem;"}
 
-With hands-on experience in **full-stack development**, **database architecture**, and **AI integration**, I've worked across various domains including:
+## 🎯 Quick Navigation
 
-::: {.skills-grid}
-::: {.skill-item}
-### 💻 Full-Stack Development
-Building robust web applications with modern frameworks like React, Next.js, and Node.js
+Explore my portfolio to learn more about my journey, projects, and experiences:
+
+::: {.skills-grid style="margin-top: 2rem;"}
+::: {.skill-item style="text-align: center; cursor: pointer;"}
+### [🏠 About Me](about.qmd)
+Learn about my background, education, work experience, and what drives me
 :::
 
-::: {.skill-item}
-### 🤖 AI Integration  
-Developing intelligent systems with LLMs, machine learning, and voice automation
+::: {.skill-item style="text-align: center;"}
+### [⚙️ FYP Project](fyp.qmd)
+Explore my Meta-Data Management & Intelligent Search Platform built during my internship
 :::
 
-::: {.skill-item}
-### ☁️ Cloud Computing
-Architecting scalable solutions on AWS with Terraform and serverless technologies
+::: {.skill-item style="text-align: center;"}
+### [🏆 Hackathons](hackathons.qmd)
+Discover my hackathon achievements including VISA Fin-Connect Runner-Up and HackRift Finalist
 :::
 
-::: {.skill-item}
-### 💰 FinTech Solutions
-Creating innovative financial technology applications and payment systems
+::: {.skill-item style="text-align: center;"}
+### [📊 Data Visualization](data-visualization.qmd)
+See my data analysis work on cryptocurrency trading patterns in Singapore
+:::
+
+::: {.skill-item style="text-align: center;"}
+### [💡 GenAI Reflection](reflection.qmd)
+Read about my experience using Claude AI to build this website
 :::
 :::
 
 ---
 
-## 🛠️ Technical Skills
+## 💼 What I Do
 
+::: {.section-card}
+I'm a **passionate technologist** with hands-on experience in:
+
+- 💻 **Full-Stack Development** - React, Node.js, Python, Java
+- ☁️ **Cloud Computing** - AWS infrastructure, Terraform, serverless architecture
+- 🤖 **AI Integration** - LLM APIs, voice automation, machine learning
+- 💰 **FinTech Solutions** - Payment systems, financial APIs, data analytics
+- 🎓 **Teaching & Mentorship** - Currently TA for INF1002 Programming Fundamentals
+:::
+
+---
+
+## 🚀 Recent Highlights
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;"}
+
+::: {.section-card}
+### 🥈 VISA Fin-Connect Hackathon
+**Runner-Up** for Aura - AI-powered travel rewards platform with predictive spending analysis
+:::
+
+::: {.section-card}
+### 🏆 HackRift 2025
+**Top 5 Finalist** for Hasslefree - Multilingual AI voice documentation for healthcare
+:::
+
+::: {.section-card}
+### 🎓 Teaching Assistant
+Mentoring **50+ students** in programming fundamentals across 3 semesters at SIT
+:::
+
+::: {.section-card}
+### ☁️ KeyReply Contract
+Built **cloud-native AI testing framework** using AWS, Terraform, and Gemini LLM
+:::
+
+:::
+
+---
+
+## 🛠️ Technical Expertise
+
+<div style="text-align: center; margin: 2rem 0;">
 <span class="badge">Java</span>
 <span class="badge">Python</span>
 <span class="badge">JavaScript</span>
-<span class="badge">SQL</span>
 <span class="badge">React</span>
 <span class="badge">Node.js</span>
-<span class="badge">AWS</span>
-<span class="badge secondary">Git</span>
-<span class="badge secondary">Terraform</span>
+<span class="badge secondary">AWS</span>
+<span class="badge secondary">SQL</span>
 <span class="badge secondary">MongoDB</span>
 <span class="badge accent">Machine Learning</span>
 <span class="badge accent">Cloud Architecture</span>
+<span class="badge accent">FinTech</span>
+</div>
 
 ---
 
-## 📚 What I Do
+## 📫 Let's Connect
 
-### **Teaching & Mentorship** 🎓
-Currently serving as a **Teaching Assistant for INF1002 Programming Fundamentals** under Prof Serena and Prof Bennett, helping students master C programming and debugging techniques.
+::: {style="text-align: center; margin: 3rem 0;"}
+I'm always excited to discuss technology, FinTech innovations, or potential collaborations!
 
-### **Current Projects** 🚀
-Working on my **INF2006 Cloud Computing** project involving automated testing frameworks for AI voice agents, combining AWS infrastructure with cutting-edge AI technologies.
-
-### **Past Achievements** 🏆
-- **Runner-Up** at VISA Fin-Connect Hackathon 2024
-- **Finalist** at HackRift 2025
-- **People's Choice Award** at Smart Nation 2.0 Hackathon
-- Developed **PeepNote**, a time-traveling note-taking app startup
+[📧 Email Me](mailto:mailformatthewtan@gmail.com){.badge .accent style="font-size: 1.1rem; padding: 0.6rem 1.5rem; margin: 0.5rem;"}
+[💼 LinkedIn](https://www.linkedin.com/in/matthew-tan-104773225){.badge .secondary style="font-size: 1.1rem; padding: 0.6rem 1.5rem; margin: 0.5rem;"}
+[💻 GitHub](https://github.com/itsmatthewtan){.badge style="font-size: 1.1rem; padding: 0.6rem 1.5rem; margin: 0.5rem;"}
 
 ---
 
-## 🎬 Featured Video
+> *"Innovation distinguishes between a leader and a follower."* - Steve Jobs
 
-Here's a glimpse into my most recent hackathon:
-
-{{< video https://www.youtube.com/watch?v=3Lj1NIMITKA&t=1s width="100%" height="400" >}}
-
-*Note: Replace this with your actual video link*
+:::
 
 ---
 
-## 💡 Currently Focused On
+::: {style="text-align: center; padding: 2rem 0; border-top: 2px solid #f8f9fa;"}
+### 🎯 Currently Open To
 
-I'm currently working on several exciting initiatives:
+- **Summer 2026 Internships** in FinTech or Cloud Computing
+- **Hackathon Collaborations** and Tech Competitions  
+- **Open Source Contributions** in web development or ML
+- **Coffee Chats** about technology and career opportunities ☕
 
-1. **Cloud Infrastructure** - Building scalable AWS architectures
-2. **AI Voice Automation** - Developing intelligent voice agents
-3. **Teaching Excellence** - Helping students excel in programming
-4. **Professional Development** - Preparing for my Prudential interview on Friday! 🎯
+**Let's build something amazing together! 🚀**
+:::
 
----
-
-## 📫 Get In Touch
-
-I'm always open to discussing new opportunities, collaborations, or just chatting about technology and FinTech!
-
-- **Email**: [mailformatthewtan@gmail.com](mailto:mailformatthewtan@gmail.com)
-- **LinkedIn**: [Matthew Tan](https://www.linkedin.com/in/matthew-tan-104773225)
-- **GitHub**: [@itsmatthewtan](https://github.com/itsmatthewtan)
+:::
 
 ---
 
 ::: {.page-footer}
+*Website built with Quarto | Hosted on GitHub Pages*
+
 *Last updated: January 15, 2026*
 :::

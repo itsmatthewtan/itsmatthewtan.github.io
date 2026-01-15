@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Matthew Tan",
     "section": "",
-    "text": "Matthew Tan\n\n\n\n\n\nI’m a Year 2 Applied Computing (FinTech) student at Singapore Institute of Technology, passionate about leveraging technology to create meaningful impact in financial services and technology sectors.\n\n“Innovation distinguishes between a leader and a follower.” - Steve Jobs\n\n📧 Email | 💼 LinkedIn | 💻 GitHub"
+    "text": "Year 2 Applied Computing (FinTech) Student at SIT\nBuilding innovative solutions at the intersection of finance and technology"
   },
   {
     "objectID": "about.html",
@@ -122,8 +122,8 @@
     "objectID": "index.html#what-i-do",
     "href": "index.html#what-i-do",
     "title": "Matthew Tan",
-    "section": "📚 What I Do",
-    "text": "📚 What I Do\n\nTeaching & Mentorship 🎓\nCurrently serving as a Teaching Assistant for INF1002 Programming Fundamentals under Prof Serena and Prof Bennett, helping students master C programming and debugging techniques.\n\n\nCurrent Projects 🚀\nWorking on my INF2006 Cloud Computing project involving automated testing frameworks for AI voice agents, combining AWS infrastructure with cutting-edge AI technologies.\n\n\nPast Achievements 🏆\n\nRunner-Up at VISA Fin-Connect Hackathon 2024\nFinalist at HackRift 2025\nPeople’s Choice Award at Smart Nation 2.0 Hackathon\nDeveloped PeepNote, a time-traveling note-taking app startup"
+    "section": "💼 What I Do",
+    "text": "💼 What I Do\n\nI’m a passionate technologist with hands-on experience in:\n\n💻 Full-Stack Development - React, Node.js, Python, Java\n☁️ Cloud Computing - AWS infrastructure, Terraform, serverless architecture\n🤖 AI Integration - LLM APIs, voice automation, machine learning\n💰 FinTech Solutions - Payment systems, financial APIs, data analytics\n🎓 Teaching & Mentorship - Currently TA for INF1002 Programming Fundamentals"
   },
   {
     "objectID": "index.html#featured-video",
@@ -229,5 +229,40 @@
     "title": "About Matthew Tan",
     "section": "🎬 My Journey in One Sentence",
     "text": "🎬 My Journey in One Sentence\n\n\n“From a curious polytechnic student tinkering with code to a teaching assistant helping others discover the joy of programming, my journey has been defined by continuous learning, building meaningful solutions, and the belief that technology can transform lives - and I’m just getting started.”\n\n- Matthew Tan, 2026\n\n\n\nLast updated: January 15, 2026\n“Code is like humor. When you have to explain it, it’s bad.” - Cory House\nBuilt with 💙 using Quarto"
+  },
+  {
+    "objectID": "index.html#im-matthew-tan",
+    "href": "index.html#im-matthew-tan",
+    "title": "Matthew Tan",
+    "section": "",
+    "text": "Year 2 Applied Computing (FinTech) Student at SIT\nBuilding innovative solutions at the intersection of finance and technology"
+  },
+  {
+    "objectID": "index.html#quick-navigation",
+    "href": "index.html#quick-navigation",
+    "title": "Matthew Tan",
+    "section": "🎯 Quick Navigation",
+    "text": "🎯 Quick Navigation\nExplore my portfolio to learn more about my journey, projects, and experiences:\n\n\n🏠 About Me\nLearn about my background, education, work experience, and what drives me\n\n\n⚙️ FYP Project\nExplore my Meta-Data Management & Intelligent Search Platform built during my internship\n\n\n🏆 Hackathons\nDiscover my hackathon achievements including VISA Fin-Connect Runner-Up and HackRift Finalist\n\n\n📊 Data Visualization\nSee my data analysis work on cryptocurrency trading patterns in Singapore\n\n\n💡 GenAI Reflection\nRead about my experience using Claude AI to build this website"
+  },
+  {
+    "objectID": "index.html#recent-highlights",
+    "href": "index.html#recent-highlights",
+    "title": "Matthew Tan",
+    "section": "🚀 Recent Highlights",
+    "text": "🚀 Recent Highlights\n\n\n🥈 VISA Fin-Connect Hackathon\nRunner-Up for Aura - AI-powered travel rewards platform with predictive spending analysis\n\n\n🏆 HackRift 2025\nTop 5 Finalist for Hasslefree - Multilingual AI voice documentation for healthcare\n\n\n🎓 Teaching Assistant\nMentoring 50+ students in programming fundamentals across 3 semesters at SIT\n\n\n☁️ KeyReply Contract\nBuilt cloud-native AI testing framework using AWS, Terraform, and Gemini LLM"
+  },
+  {
+    "objectID": "index.html#technical-expertise",
+    "href": "index.html#technical-expertise",
+    "title": "Matthew Tan",
+    "section": "🛠️ Technical Expertise",
+    "text": "🛠️ Technical Expertise\n\nJava Python JavaScript React Node.js AWS SQL MongoDB Machine Learning Cloud Architecture FinTech"
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Matthew Tan",
+    "section": "📫 Let’s Connect",
+    "text": "📫 Let’s Connect\n\nI’m always excited to discuss technology, FinTech innovations, or potential collaborations!\n📧 Email Me 💼 LinkedIn 💻 GitHub\n\n\n“Innovation distinguishes between a leader and a follower.” - Steve Jobs\n\n\n\n\n🎯 Currently Open To\n\nSummer 2026 Internships in FinTech or Cloud Computing\nHackathon Collaborations and Tech Competitions\n\nOpen Source Contributions in web development or ML\nCoffee Chats about technology and career opportunities ☕\n\nLet’s build something amazing together! 🚀"
   }
 ]

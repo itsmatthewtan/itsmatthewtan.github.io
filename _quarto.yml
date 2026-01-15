@@ -12,6 +12,9 @@ website:
       - href: index.qmd
         text: Home
         icon: house-fill
+      - href: about.qmd
+        text: About
+        icon: person-fill
       - href: fyp.qmd
         text: FYP Project
         icon: gear-fill
